@@ -11,7 +11,7 @@
 require 'webrick'
 require 'json'
 
-port = ENV['PORT'].nil? ? 3000 : ENV['PORT'].to_i
+port = ENV['PORT'].nil? ? 3001 : ENV['PORT'].to_i
 
 puts "Server started: http://localhost:#{port}/"
 
